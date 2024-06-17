@@ -9,8 +9,6 @@ Welcome to the My Diary Website project! This README provides an overview of the
 3. [Installation](#installation)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
-6. [License](#license)
-7. [Contact](#contact)
 
 ## Introduction
 
@@ -26,8 +24,8 @@ My Diary Website is a digital platform where users can note every single moment 
 
 ### Prerequisites
 
-- Node.js (v12.x or later)
-- npm (v6.x or later)
+- Node.js
+- npm
 
 ### Steps
 
