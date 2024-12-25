@@ -17,8 +17,6 @@ const jwt = require("jsonwebtoken")
 const {authenticateToken} = require('./utilities');
 
 
-const cors = require('cors')
-
 
 app.use(cors(
 {
