@@ -25,13 +25,10 @@ app.use(
   })
 )
 
-//  home
 
 app.get("/" ,(req,res) => {
   res.json("hello");
 })
-
-
 //  create user
 
 app.post("/create-account", async (req,res) => {
