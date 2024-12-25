@@ -17,13 +17,18 @@ const jwt = require("jsonwebtoken")
 const {authenticateToken} = require('./utilities');
 
 
-app.use(express.json())
+const cors = require('cors')
 
-app.use(
-  cors({
-    origin: "*",
-  })
-)
+
+app.use(cors(
+{
+  origin: "*",
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}
+))
+
+app.use(express.json())
 
 
 app.get("/" ,(req,res) => {
