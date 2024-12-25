@@ -19,7 +19,7 @@ const {authenticateToken} = require('./utilities');
 app.use(cors(
 {
   origin: [""],
-  methods: ["GET", "POST", "PUT", "DELETE"],
+  methods: ["GET", "POST"],
   credentials: true
 }
 ))
