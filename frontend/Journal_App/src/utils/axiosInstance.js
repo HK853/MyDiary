@@ -9,6 +9,7 @@ const axiosInstance = axios.create({
   }
 })
 
+axiosInstance.defaults.withCredentials=true;
 axiosInstance.interceptors.request.use( 
   (config) => {
   const accessToken = localStorage.getItem("token");
