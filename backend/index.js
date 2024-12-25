@@ -1,9 +1,8 @@
 require("dotenv").config();
 
-const config = require("./config.json");
 const mongoose = require("mongoose");
 
-mongoose.connect(config.connectionurl);
+mongoose.connect('mongodb+srv://root:root123@journalapp.kv29dzu.mongodb.net/?retryWrites=true&w=majority&appName=journalapp');
 
 
 const User = require("./models/user.model");
