@@ -25,6 +25,8 @@ app.use(
   })
 )
 
+//  home
+
 app.get("/" ,(req,res) => {
   res.json("hello");
 })
